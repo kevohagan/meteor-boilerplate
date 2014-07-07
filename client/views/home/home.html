@@ -1,3 +1,20 @@
 <template name="home">
-  Welcome to my new meteor app
+  <div class="ui stackable page grid">
+    <div class="ten wide column">
+      <div class="ui segment">
+        <h2>accounts-templates <small>styled for <a href="http://semantic-ui.com/">Semantic UI</a></small></h2>
+        <div class="ui divider"></div>
+        {{#unless currentUser}}
+          {{> options}}
+        {{else}}
+          {{> userProfile}}
+        {{/unless}}
+      </div>
+    </div>
+    <div class="six wide column" id="signinFormDiv">
+      <div class="ui segment">
+        {{> signinForm}}
+      </div>
+    </div>
+  </div>
 </template>

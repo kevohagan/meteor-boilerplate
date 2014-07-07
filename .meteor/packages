@@ -10,8 +10,9 @@ iron-router
 coffeescript
 less
 accounts-ui
-accounts-entry
 accounts-password
 handlebars-server
 blaze-layout
 minimongoid
+accounts-templates-semantic-ui
+semantic-ui
