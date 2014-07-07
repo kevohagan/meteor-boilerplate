@@ -1,8 +1,68 @@
 <template name="home">
+  <div class="ui inverted page grid stackable relaxed feature segment">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Your home page template boilerplate
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ten wide column">
+        <h2 class="ui header">This is some placeholder text</h2>
+        <p>To your own love and pride. Enjoy this beautifully crafter boilerplate text which is great to read</p>
+
+      </div>
+      <div class="six wide column">
+        <div class="ui secondary form segment">
+          <h3 class="ui header">Stay updated with our latest products</h3>
+          <p>Sign up to our mailing list!</p>
+          <div class="field">
+            <div class="ui left icon action input">
+              <i class="user icon"></i>
+              <input name="email" type="text" placeholder="name@email.com">
+              <div class="ui blue submit button">Sign up</div>
+            </div>
+          </div>
+          <div class="ui error message"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="ui page grid overview segment">
+    <div class="ui one wide column"></div>
+    <div class="fourteen wide column">
+      <div class="ui three column center aligned stackable divided grid">
+        <div class="column">
+          <div class="ui icon header">
+            <i class="circular browser blue link icon"></i>
+            Customizable
+          </div>
+          <p>Choose to customize your template the way you want!</p>
+        </div>
+        <div class="column">
+          <div class="ui icon header">
+            <i class="circular user blue link icon"></i>
+            Personalised Logos
+          </div>
+          <p>Put your own logo, make it shine!</p>
+        </div>
+        <div class="column">
+          <div class="ui icon header">
+            <i class="circular basic idea blue link icon"></i>
+            Brandable
+          </div>
+          <p>You want to modify, copy, steal? Go for it, it's all yours!!!</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="ui stackable page grid">
     <div class="ten wide column">
       <div class="ui segment">
-        <h2>accounts-templates <small>styled for <a href="http://semantic-ui.com/">Semantic UI</a></small></h2>
         <div class="ui divider"></div>
         {{#unless currentUser}}
           {{> options}}

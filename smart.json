@@ -4,7 +4,6 @@
     "handlebars-server": {
       "git": "https://github.com/EventedMind/meteor-handlebars-server.git"
     },
-    "minimongoid": {},
     "accounts-templates-semantic-ui": {},
     "semantic-ui": {}
   }

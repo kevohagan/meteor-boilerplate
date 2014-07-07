@@ -13,6 +13,5 @@ accounts-ui
 accounts-password
 handlebars-server
 blaze-layout
-minimongoid
 accounts-templates-semantic-ui
 semantic-ui

@@ -1,7 +1,7 @@
-class @User extends Minimongoid
+# class @User extends Minimongoid
 
-  @_collection: Meteor.users
+#   @_collection: Meteor.users
 
-  @current: ->
-    if Meteor.userId()
-      User.init Meteor.user()
+#   @current: ->
+#     if Meteor.userId()
+#       User.init Meteor.user()
