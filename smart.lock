@@ -2,11 +2,12 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {
-        "version": "0.7.1"
-      },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
+        "branch": "master"
+      },
+      "accounts-templates-core": {
+        "git": "https://github.com/splendido/accounts-templates-core.git",
         "branch": "master"
       },
       "accounts-templates-semantic-ui": {
@@ -17,15 +18,15 @@
       }
     },
     "packages": {
-      "iron-router": {
-        "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.7.1",
-        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
-      },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
         "branch": "master",
         "commit": "ce65fa1f63b94383e4e6168cdcec1b9e1d527668"
+      },
+      "accounts-templates-core": {
+        "git": "https://github.com/splendido/accounts-templates-core.git",
+        "branch": "master",
+        "commit": "d8af7ca6a52d50eccb1732e6bc0ce890bbf01fe9"
       },
       "accounts-templates-semantic-ui": {
         "git": "https://github.com/splendido/meteor-accounts-templates-semantic-ui.git",
@@ -37,20 +38,20 @@
         "tag": "v0.19.0",
         "commit": "23ddf7b58db125cc33d0d95d58fcac940f262481"
       },
-      "blaze-layout": {
-        "git": "https://github.com/EventedMind/blaze-layout.git",
-        "tag": "v0.2.4",
-        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
-      },
-      "accounts-templates-core": {
-        "git": "https://github.com/splendido/accounts-templates-core.git",
-        "tag": "v0.0.11",
-        "commit": "0e45146a21409c6d1984108664f8809672343194"
-      },
       "accounts-t9n": {
         "git": "https://github.com/splendido/meteor-accounts-t9n.git",
         "branch": "master",
         "commit": "9189c58aeba752d3e369f9fad5e1f718d90d2b3f"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
       }
     }
   }
