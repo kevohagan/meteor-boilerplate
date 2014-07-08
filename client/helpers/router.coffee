@@ -10,10 +10,6 @@ Router.configure
     $('meta[name^="description"]').remove()
 
 
-
-
-
-
 Router.map ->
 
   @route 'home',
@@ -23,13 +19,6 @@ Router.map ->
 
   @route 'dashboard',
     path: '/dashboard'
-
-  @route 'notFound',
-    path: '*'
-    where: 'server'
-    action: ->
-      @response.statusCode = 404
-      @response.end Handlebars.templates['404']()
 
   @route "fullPage",
     path: "/full"
