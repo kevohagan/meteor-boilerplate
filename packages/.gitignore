@@ -1,13 +1,7 @@
-/iron-router
-/accounts-entry
 /handlebars-server
-/headers
-/just-i18n
-/accounts-t9n
-/blaze-layout
-/minimongoid
-/underscore-string-latest
-/simple-form
-/accounts-templates-semantic-ui
 /accounts-templates-core
+/accounts-templates-semantic-ui
+/accounts-t9n
+/iron-router
+/blaze-layout
 /semantic-ui

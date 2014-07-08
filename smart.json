@@ -1,8 +1,10 @@
 {
   "packages": {
-    "iron-router": {},
     "handlebars-server": {
       "git": "https://github.com/EventedMind/meteor-handlebars-server.git"
+    },
+    "accounts-templates-core": {
+      "git": "https://github.com/splendido/accounts-templates-core.git"
     },
     "accounts-templates-semantic-ui": {},
     "semantic-ui": {}
