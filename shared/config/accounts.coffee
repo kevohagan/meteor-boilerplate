@@ -1,3 +1,4 @@
+///
 AccountsTemplates.removeField "login"
 AccountsTemplates.addField
   name: "login"
@@ -6,6 +7,7 @@ AccountsTemplates.addField
   displayName: "email"
   re: /.+@(.+){2,}\.(.+){2,}/
   errStr: "Invalid email address!!!"
+///
 
 AccountsTemplates.removeField "password"
 AccountsTemplates.addField
