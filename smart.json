@@ -4,9 +4,9 @@
       "git": "https://github.com/EventedMind/meteor-handlebars-server.git"
     },
     "accounts-templates-core": {
-        "git" : "https://github.com/splendido/accounts-templates-core",
-        "branch": "master"
-        },
+      "git": "https://github.com/splendido/accounts-templates-core",
+      "branch": "master"
+    },
     "accounts-templates-semantic-ui": {},
     "semantic-ui": {},
     "simple-form": {},
@@ -15,6 +15,7 @@
     "publish-composite": {},
     "nprogress": {},
     "velocityjs": {},
-    "iron-router-progress": {}
+    "iron-router-progress": {},
+    "publish-with-relations": {}
   }
 }
