@@ -1,0 +1,16 @@
+<template name="profile">
+<div class="ui page grid">
+  <div class="row">
+    <div class="column">
+      <div class="ui basic segment">
+        <h1>Your Profile</h1>
+        {{#with currentUser}}
+          <p>Hello user: {{this.username}}</p>
+        {{else}}
+          <p>nooo</p>
+        {{/with}}
+      </div>
+    </div>
+  </div>
+</div>
+</template>

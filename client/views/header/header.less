@@ -1,0 +1,38 @@
+#sidebar {
+  z-index: 1000;
+}
+
+#header-right{
+  a {
+    font-size: 1.2em;
+  }
+}
+
+
+
+
+a.launch.item {
+  display: none!important;
+}
+
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+
+@media only screen and (max-width : 768px) {
+
+  .launch.item{
+    display: inline-block!important;
+  }
+
+  /*rtl:ignore*/
+  .menu .right.menu > .item {
+    // display: none;
+  }
+  /*rtl:ignore*/
+  .menu .right.menu > .mobile.item {
+    display: block;
+  }
+}

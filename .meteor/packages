@@ -12,6 +12,7 @@ less
 accounts-ui
 accounts-password
 handlebars-server
-blaze-layout
 accounts-templates-semantic-ui
 semantic-ui
+velocityjs
+iron-router-progress

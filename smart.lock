@@ -7,7 +7,7 @@
         "branch": "master"
       },
       "accounts-templates-core": {
-        "git": "https://github.com/splendido/accounts-templates-core.git",
+        "git": "https://github.com/splendido/accounts-templates-core",
         "branch": "master"
       },
       "accounts-templates-semantic-ui": {
@@ -15,6 +15,27 @@
       },
       "semantic-ui": {
         "version": "0.19.0"
+      },
+      "simple-form": {
+        "version": "0.1.8"
+      },
+      "minimongoid": {
+        "version": "0.8.8"
+      },
+      "collection-helpers": {
+        "version": "0.3.0"
+      },
+      "publish-composite": {
+        "version": "1.0.6"
+      },
+      "nprogress": {
+        "version": "0.0.5"
+      },
+      "velocityjs": {
+        "version": "0.8.0"
+      },
+      "iron-router-progress": {
+        "version": "0.4.1"
       }
     },
     "packages": {
@@ -24,9 +45,9 @@
         "commit": "ce65fa1f63b94383e4e6168cdcec1b9e1d527668"
       },
       "accounts-templates-core": {
-        "git": "https://github.com/splendido/accounts-templates-core.git",
+        "git": "https://github.com/splendido/accounts-templates-core",
         "branch": "master",
-        "commit": "d8af7ca6a52d50eccb1732e6bc0ce890bbf01fe9"
+        "commit": "2352d530052300799980154209b21b58657badbe"
       },
       "accounts-templates-semantic-ui": {
         "git": "https://github.com/splendido/meteor-accounts-templates-semantic-ui.git",
@@ -38,20 +59,75 @@
         "tag": "v0.19.0",
         "commit": "23ddf7b58db125cc33d0d95d58fcac940f262481"
       },
+      "simple-form": {
+        "git": "https://github.com/Differential/simple-form.git",
+        "tag": "v0.1.8",
+        "commit": "1ea0d3621b333e6f24f37e0e93efd3c081068716"
+      },
+      "minimongoid": {
+        "git": "https://github.com/Exygy/minimongoid.git",
+        "tag": "v0.8.8",
+        "commit": "cf8d0bec44934d617544965977f270f2a8cdca02"
+      },
+      "collection-helpers": {
+        "git": "https://github.com/dburles/meteor-collection-helpers.git",
+        "tag": "v0.3.0",
+        "commit": "842bd9343b19c0e45ae20ac9c63c8c356889959a"
+      },
+      "publish-composite": {
+        "git": "https://github.com/reywood/meteor-publish-composite.git",
+        "tag": "v1.0.6",
+        "commit": "ca996d179dd7e01ac214b9ccd75a5ba2da02427a"
+      },
+      "nprogress": {
+        "git": "https://github.com/zhouzhuojie/meteor-nprogress.git",
+        "tag": "v0.0.5",
+        "commit": "bb88a057166e0f1386ab8bc0a1e080b48aa59159"
+      },
+      "velocityjs": {
+        "git": "https://github.com/Sewdn/meteor-velocityjs.git",
+        "tag": "v0.8.0",
+        "commit": "5e96099e2cf8f99dbc7ed61225e96b0ba833ff08"
+      },
+      "iron-router-progress": {
+        "git": "https://github.com/Multiply/iron-router-progress.git",
+        "tag": "v0.4.1",
+        "commit": "496fcda9a6ec352b4733725f60c6f280250c3541"
+      },
       "accounts-t9n": {
         "git": "https://github.com/splendido/meteor-accounts-t9n.git",
         "branch": "master",
-        "commit": "9189c58aeba752d3e369f9fad5e1f718d90d2b3f"
+        "commit": "3161547c08122d6a7488208de124b3fa76ef19a5"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.7.1",
-        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+        "tag": "v0.8.2",
+        "commit": "05415a8891ea87a00fb1e2388585f2ca5a38e0da"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
+      },
+      "iron-layout": {
+        "git": "https://github.com/EventedMind/iron-layout.git",
+        "tag": "v0.2.0",
+        "commit": "4a2d53e35ba036b0c189c7ceca34be494d4c6c97"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
-        "tag": "v0.2.4",
-        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+        "tag": "v0.2.5",
+        "commit": "273e3ab7d005d91a1a59c71bd224533b4dae2fbd"
+      },
+      "iron-core": {
+        "git": "https://github.com/EventedMind/iron-core.git",
+        "tag": "v0.2.0",
+        "commit": "0e48b5dc50d03f01025b7b900fb5ce2f13d52cad"
+      },
+      "iron-dynamic-template": {
+        "git": "https://github.com/EventedMind/iron-dynamic-template.git",
+        "tag": "v0.2.1",
+        "commit": "4dd1185c4d9d616c9abdb3f33e4a7d5a88db7e18"
       }
     }
   }

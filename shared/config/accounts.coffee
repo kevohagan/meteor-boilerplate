@@ -36,6 +36,7 @@ AccountsTemplates.configure
   continuousValidation: true
   showAddRemoveServices: false
   postSignUpRoutePath: "/profile"
+  # postSignInRoutePath: '/profile'
   signInRoutePath: '/signin',
   signUpRoutePath: '/signup',
   forgotPwdRoutePath: '/forgotpassword',

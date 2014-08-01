@@ -8,6 +8,8 @@
   <![endif]-->
 
   {{> yield region="header"}}
-  {{> yield}}
-  {{> yield region="footer"}}
+  <main id="mainContent">
+    {{> yield}}
+    {{> yield region="footer"}}
+  </main>
 </template>
